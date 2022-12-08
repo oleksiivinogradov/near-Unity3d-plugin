@@ -50,15 +50,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\NearSrc\ContractButtonHandler.cs" />
-     <Compile Include="Assets\Scripts\NearSrc\LoginSceneScript.cs" />
-     <Compile Include="Assets\Scripts\NearSrc\NearPersistentManager.cs" />
-     <Compile Include="Assets\Scripts\NearSrc\NearSceneScript.cs" />
-     <Compile Include="Assets\Scripts\NearSrc\SignInButtonHandler.cs" />
-     <Compile Include="Assets\Scripts\NearSrc\SignOutButtonHandler.cs" />
-     <Compile Include="Assets\Scripts\NearSrc\SplashSceneScript.cs" />
-     <Compile Include="Assets\Scripts\NearSrc\Wasm.cs" />
-     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
+     <Compile Include="Assets\Example\Scripts\ContractButtonHandler.cs" />
+     <Compile Include="Assets\Example\Scripts\LoginSceneScript.cs" />
+     <Compile Include="Assets\Example\Scripts\NearPersistentManager.cs" />
+     <Compile Include="Assets\Example\Scripts\NearSceneScript.cs" />
+     <Compile Include="Assets\Example\Scripts\SignInButtonHandler.cs" />
+     <Compile Include="Assets\Example\Scripts\SignOutButtonHandler.cs" />
+     <Compile Include="Assets\Example\Scripts\SplashSceneScript.cs" />
+     <Compile Include="Assets\Example\Scripts\Wasm.cs" />
+     <None Include="Assets\Example\Content\Fonts\Jupiter\LICENSE.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/filis/Unity projects/near-api-unity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -266,11 +266,11 @@
  <Reference Include="UnityEditor">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/filis/Unity projects/near-api-unity/Assets/Newtonsoft.Json.dll</HintPath>
- </Reference>
  <Reference Include="NearClientUnity">
- <HintPath>C:/Users/filis/Unity projects/near-api-unity/Assets/Scripts/NearSrc/DLL/NearClientUnity.dll</HintPath>
+ <HintPath>C:/Users/filis/Unity projects/near-api-unity/Assets/Plugins/NearPlugin/DLL/NearClientUnity.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Users/filis/Unity projects/near-api-unity/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

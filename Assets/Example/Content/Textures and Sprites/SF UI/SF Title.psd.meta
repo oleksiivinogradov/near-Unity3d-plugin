@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 9a32a6cc2cb803443983d45d4a513506
+guid: 966be606197166640a108ef53355eddf
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: SF Button - Hover
+    second: SF Title
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -36,7 +36,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 2
     aniso: 16
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -60,6 +60,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -149,16 +150,16 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SF Button - Hover
+      name: SF Title
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 230
-        height: 71
+        width: 256
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 38, y: 30, z: 38, w: 30}
+      border: {x: 125, y: 30, z: 125, w: 30}
       outline: []
       physicsShape: []
       tessellationDetail: -1
